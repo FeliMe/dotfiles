@@ -15,12 +15,8 @@ set -eufo pipefail
      "wget" -}}
 {{ $casks := list
      "docker"
-     "dropbox"
-     "inkscape"
      "iterm2"
-     "visual-studio-code"
-     "whatsapp"
-     "zotero" -}}
+     "visual-studio-code" -}}
 
 brew bundle --no-lock --file=/dev/stdin <<EOF
 {{ range ($brews | sortAlpha | uniq) -}}

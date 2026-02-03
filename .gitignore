@@ -1,6 +1,3 @@
 .DS_Store
 
-.terraform*
-terraform.*
 mise.toml
-*.tfplan

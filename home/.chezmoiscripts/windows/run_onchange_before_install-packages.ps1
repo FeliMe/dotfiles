@@ -2,11 +2,6 @@ wsl --install
 
 $apps = @(
     "7zip.7zip",
-    "DigitalScholar.Zotero",
-    "Docker.DockerDesktop",
-    "GIMP.GIMP",
-    "GitHub.GitHubDesktop",
-    "Microsoft.Azure.StorageExplorer",
     "Microsoft.VisualStudioCode"
 )
 

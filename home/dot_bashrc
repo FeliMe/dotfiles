@@ -145,6 +145,5 @@ shopt -s checkwinsize
 mkcd () {
     mkdir -p "$1" && cd "$1"
 }
-eval ""
-eval "$(/home/t-femeissen/.local/bin/mise activate bash)"
-eval ""
+
+eval "$("$HOME/.local/bin/mise" activate bash)"
